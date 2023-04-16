@@ -19,7 +19,7 @@ In this short section, we will:
 - Write a simple program which prints a message
 - Extend it to take in user input
 - Dip our toes in a few simple but powerful features of the language
-- Get an idea of how it feels to write effectful code in Fino
+- Get an idea of how it feels to write [effectful](https://en.wikipedia.org/wiki/Side_effect_(computer_science)) code in Fino
 
 ## Writing the code
 
@@ -35,7 +35,7 @@ Click on a tab to understand what a specific line of code does:
 <Tabs>
 <TabItem value="line1" label="Line 1" default>
 
-This line imports the `prelude` module from the standardlibrary, which in turn brings a small set of essential modules into scope, such as the `io` module which we use `println` from (on line 4).
+This line imports the `prelude` module from the standard library, which in turn brings a small set of essential modules into scope, such as the `io` module which we use `println` from (on line 4).
 
 </TabItem>
 <TabItem value="line3" label="Line 3">
