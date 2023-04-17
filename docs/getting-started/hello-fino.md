@@ -105,6 +105,8 @@ While writing a *Hello, Fino!* program is fun, let's try exploring some more. Sp
 
 As before, create a new file, name it whatever you want, and give it a `.fn` file extension. Edit the file and write the following few lines of code:
 ```(jsx title="greeting.fn" showLineNumbers)
+import prelude
+
 fn main : unit -> unit
     () = do
         println "What is your name?"
