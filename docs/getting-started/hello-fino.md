@@ -101,7 +101,7 @@ Hello, Fino!
 ```
 
 ## Some more
-While writing a *Hello, Fino!* program is fun, let's try exploring some more. Specifically, let's extend our program to take in user input, in the form of a name, and then output a greeting.
+While writing a *Hello, Fino!* program is fun, let's try exploring some more of the language. Specifically, let's extend our program to take in user input in the form of a name, and then output a greeting.
 
 As before, create a new file, name it whatever you want, and give it a `.fn` file extension. Edit the file and write the following few lines of code:
 ```(jsx title="greeting.fn" showLineNumbers)
