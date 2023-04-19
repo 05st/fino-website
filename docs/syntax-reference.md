@@ -96,7 +96,9 @@ Operators are desugared to regular function applications in the parser.
 ### Variables
 ```
 abc123
-Qwe_'4'
+Qwe_'4
+
+some.qualified.var
 ```
 
 ### Literals
@@ -222,10 +224,10 @@ fn failableOperation : a -> Either Error (Pair a b)
 ## Patterns
 Type constructor patterns, variable patterns, wildcard patterns, and literal patterns.
 ```
-Just a
-Just false
-Either _ b
-Nothing
+Maybe::Just a
+Maybe::Just false
+Either::Right ()
+Maybe::Nothing
 
 x
 someVar
@@ -243,8 +245,8 @@ true
 ### Imports
 ```
 import a
-import some::module
-import control::monad::state
+import some.module
+import control.monad.state
 ```
 
 ### Exports
@@ -253,9 +255,9 @@ All exported identifiers must be on the same line, separated by a `,`.
 Exported modules must have their name prefixed by the `module` keyword.
 ```
 import m
-import abc::xyz
+import abc.xyz
 
-export someDef, fnAbc, module m, Maybe, module abc::xyz
+export someDef, fnAbc, module m, Maybe, module abc.xyz
 ```
 
 ### Extern Declarations
