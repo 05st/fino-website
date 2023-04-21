@@ -25,8 +25,8 @@ Here is a rough outline of the progress so far:
 - [X] Module verification (topological sorting, cycle detection)
 - [X] Name resolution
 - [ ] User-defined prefix, infix, and postfix operators
-- [ ] Hindley-Milner type inference
-- [ ] Algebraic data types
+- [X] Hindley-Milner type inference
+- [X] Algebraic data types
 - [ ] Records with scoped labels
 - [ ] Traits (i.e. Haskell typeclasses)
 - [ ] Monomorphization
