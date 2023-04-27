@@ -24,7 +24,7 @@ Here is a rough outline of the progress so far:
 - [X] Basic module system
 - [X] Module verification (topological sorting, cycle detection)
 - [X] Name resolution
-- [ ] User-defined prefix, infix, and postfix operators
+- [X] User-defined prefix, infix, and postfix operators
 - [X] Hindley-Milner type inference
 - [X] Algebraic data types
 - [ ] Records with scoped labels

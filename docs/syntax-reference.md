@@ -50,25 +50,6 @@ fn factorial
 fn id x = x
 ```
 
-If defining an operator, a fixity and precedence must be specified. The identifier must be surrounded in parenthesis, and it must be a valid operator identifier.
-
-Possible fixities are: `infixl`, `infixr`, `infix`, `prefix`, and `postfix`.
-Operator precedence may be any arbitrary positive integer.
-
-```
-fn infixl 6 (+) : i32 -> i32 -> i32
-    a b = ...
-
-fn infixl 6 (-) a b = ...
-
-fn infixl 7 (*)
-    a b = ...
-
-fn postfix 12 (!)
-    1 = 1
-    n = n * (n-1)!
-```
-
 ### Let Declarations
 Type annotation is optional.
 
