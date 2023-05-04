@@ -27,7 +27,7 @@ Here is a rough outline of the progress so far:
 - [X] User-defined prefix, infix, and postfix operators
 - [X] Hindley-Milner type inference
 - [X] Algebraic data types
-- [ ] Records with scoped labels
+- [X] Records with scoped labels
 - [ ] Traits (i.e. Haskell typeclasses)
 - [ ] Monomorphization
 - [ ] Closure conversion / lambda lifting
